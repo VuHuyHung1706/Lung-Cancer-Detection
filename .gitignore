@@ -1,0 +1,16 @@
+# Ignore training image folders
+train/
+test/
+val/
+chest_xray/
+*/data/
+*/images/
+
+# Ignore large files and datasets
+*.csv
+*.h5
+*.pkl
+
+# Exclude notebook checkpoints
+.ipynb_checkpoints/
+__pycache__/
